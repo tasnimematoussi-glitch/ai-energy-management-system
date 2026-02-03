@@ -1,0 +1,34 @@
+# =============================================================================
+# AI SMART HOME ENERGY MANAGEMENT SYSTEM - DEPENDENCIES
+# =============================================================================
+# Author: MATOUSSI Tasnim
+# Lab: AI-P1 | ISET Bizerte
+# =============================================================================
+
+# Core Data Science & ML
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# Deep Learning (LSTM Models)
+tensorflow>=2.13.0,<2.16.0
+keras>=2.13.0
+
+# Fuzzy Logic
+scikit-fuzzy>=0.4.2
+
+# Web Dashboard
+streamlit>=1.28.0
+
+# Visualization
+plotly>=5.17.0
+matplotlib>=3.7.0
+
+# Utilities
+python-dateutil>=2.8.0
+pytz>=2023.3
+
+# Optional (for production deployment)
+# streamlit-autorefresh>=0.0.1
+# watchdog>=3.0.0
