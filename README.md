@@ -2,15 +2,17 @@
 
 > 🚧 **Project Status: Work in Progress**  
 > This project is currently under active development and continuous improvement.  
-> The repository does **not** represent the final version of the system.
+> This repository does not represent the final version of the system.
 
-This project implements an intelligent smart home energy management system using:
+## Summary
 
-- LSTM neural networks for energy consumption and solar prediction
-- Fuzzy logic for adaptive decision-making
-- Streamlit dashboard for visualization and interaction
+This project implements an intelligent smart home energy management system that combines
+LSTM neural networks for energy consumption and solar power prediction with a fuzzy logic
+controller for adaptive and explainable decision-making. An interactive Streamlit dashboard
+is used to visualize predictions and system decisions in real time.
 
 ## Files
+
 - `prediction.py` — LSTM prediction models  
 - `decision.py` — Fuzzy logic controller  
 - `dashboard.py` — Interactive Streamlit dashboard  
